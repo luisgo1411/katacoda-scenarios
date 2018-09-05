@@ -4,7 +4,7 @@ First we need to configure our ssh_key in github.
 
 **1.- Paste the text below, substituting in your GitHub email address.**
 
-`ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`{{execute}}
+`ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
 
 This creates a new ssh key, using the provided email as a label.
 ```
@@ -42,10 +42,14 @@ ssh-rsa AAA...== your_email@example.com
 ```
 Select it and copy to the clipboard.
 
+## Add the ssh key to github
 
+Open this link in a new tab [https://github.com/settings/keys](https://github.com/settings/keys)
 
+Then clic in `New SSH key`
 
+There put a Title, I call it `Katacoda SSH`
 
+And paste the id_rsa.pub content **Previously copied to the clipboard** into **Key**
 
-
-
+To finish it clic in `Add SSH Key`

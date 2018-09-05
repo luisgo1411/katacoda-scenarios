@@ -20,14 +20,14 @@
       "text": "intro.md"
     },
 	"assets": {
-    "host01": [
-      {
-        "file": "katacoda_cli",
-        "target": "/root",
-		"chmod": "+x"
-      }
-    ]
-   },
+		"client": [
+		{
+			"file": "katacoda_cli",
+			"target": "/root",
+			"chmod": "+x"
+		}
+		]
+    },
     "finish": {
       "text": "finish.md"
     }
