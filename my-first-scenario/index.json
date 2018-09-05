@@ -30,7 +30,7 @@
     "imageid": "docker"
   },
   "assets": {
-    "client": [
+    "host01": [
       {
         "file": "katacoda_cli",
         "target": "/root",

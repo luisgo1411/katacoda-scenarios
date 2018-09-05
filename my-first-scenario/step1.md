@@ -31,7 +31,7 @@ Enter same passphrase again: [Type passphrase again]
 **2.- Add your SSH private key to the ssh-agent. If you created your key with a different name, or if you are adding an existing key that has a different name, replace id_rsa in the command with the name of your private key file.**
 `ssh-add ~/.ssh/id_rsa`{{execute}}
 
-##Add a new SSH key to your GitHub account
+## Add a new SSH key to your GitHub account
 
 **1.- Copy the SSH key to your clipboard.**
 `cat /root/.ssh/id_rsa.pub`{{execute}}
