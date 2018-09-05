@@ -23,7 +23,7 @@
 		"client": [
 		{
 			"file": "katacoda_cli",
-			"target": "/root",
+			"target": "/root/",
 			"chmod": "+x"
 		}
 		]
