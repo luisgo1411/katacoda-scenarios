@@ -24,7 +24,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "docker"
