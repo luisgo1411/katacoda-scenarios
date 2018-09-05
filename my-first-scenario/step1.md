@@ -2,7 +2,7 @@ First we need to configure our ssh_key in github.
 
 ## Generating a new SSH key
 
-**1.- Paste the text below, substituting in your GitHub email address.**
+**1.- Copy & Paste the text below, substituting in your GitHub email address** in the console.
 
 `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
 
