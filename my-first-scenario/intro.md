@@ -1,0 +1,1 @@
+Wellcome to the course to create a Katacoda course from scratch using command line and katacoda cli.
