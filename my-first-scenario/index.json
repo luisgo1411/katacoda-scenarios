@@ -33,7 +33,8 @@
     "client": [
       {
         "file": "katacoda_cli",
-        "target": "~/"
+        "target": "/root",
+		"chmod": "+x"
       }
     ]
    }

@@ -4,7 +4,7 @@ First we need to configure our ssh_key in github.
 
 **1.- Paste the text below, substituting in your GitHub email address.**
 
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"{{execute}}
+`ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`{{execute}}
 
 This creates a new ssh key, using the provided email as a label.
 ```
@@ -26,20 +26,21 @@ Enter same passphrase again: [Type passphrase again]
 
 **1.- Ensure the ssh-agent is running:**
 
-eval $(ssh-agent -s){{execute}}
+`eval $(ssh-agent -s)`{{execute}}
 
 **2.- Add your SSH private key to the ssh-agent. If you created your key with a different name, or if you are adding an existing key that has a different name, replace id_rsa in the command with the name of your private key file.**
-ssh-add ~/.ssh/id_rsa{{execute}}
+`ssh-add ~/.ssh/id_rsa`{{execute}}
 
 ##Add a new SSH key to your GitHub account
 
 **1.- Copy the SSH key to your clipboard.**
-cat ~/.ssh/id_rsa.pub{{execute}}
+`cat /root/.ssh/id_rsa.pub`{{execute}}
 
-
-
-
-
+It would be something like follow.
+```
+ssh-rsa AAA...== your_email@example.com
+```
+Select it and copy to the clipboard.
 
 
 
