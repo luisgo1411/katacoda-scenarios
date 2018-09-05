@@ -4,7 +4,7 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Generate a ssh key and add to GitHub",
         "text": "step1.md"
       },
       {
