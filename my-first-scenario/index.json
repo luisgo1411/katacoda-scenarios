@@ -29,4 +29,12 @@
   "backend": {
     "imageid": "docker"
   }
+  "assets": {
+    "client": [
+      {
+        "file": "katacoda_cli",
+        "target": "~/"
+      }
+    ]
+   }
 }
