@@ -6,9 +6,9 @@ Open the follow URL:
 [https://www.katacoda.com/create](https://www.katacoda.com/create)
 Follow the steps in `CREATE FIRST SCENARIO`, in the second step select `Configure WebHook automatically`.
 
-You will recive an URL like this: `https://github.com/yourprofile/katacoda-scenarios`
+You will recive an URL like this: `https://github.com/profile/katacoda-scenarios`
 
-Open this URL: [https://www.katacoda.com/yourprofile/settings](https://www.katacoda.com/yourprofile/settings)
+Open this URL: [https://www.katacoda.com/profile/settings](https://www.katacoda.com/profile/settings)
 
 At this step in the last URL you will have the follow spaces filled in the previous URL.
 
